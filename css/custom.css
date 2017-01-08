@@ -1,0 +1,33 @@
+/* edit this form to modify css styles */
+
+
+header {
+
+	height:140px;
+	background-repeat:no-repeat;
+
+}
+
+header a {
+
+	background-image: url("../images/operi.png");
+	display:block;
+	height:140px;
+	width:270px;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+}
+
+
+
+#contents {
+
+
+    font-size: .8em;
+}
+
+header a:hover {
+	background-color:transparent;
+}
+

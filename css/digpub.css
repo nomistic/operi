@@ -1,0 +1,491 @@
+body {
+
+	font-family:verdana,arial,sans-serif;
+	font-size:0.875em;
+	/* background-color:#006600; */
+}
+
+a { color:#008000; }
+a:hover { 
+	color:#33CC33;
+	background-color:#EEE;
+
+}
+
+
+header div.search {
+
+
+	float:right;
+	margin-top:50px;
+	margin-right:200px;
+	display:inline-block;
+	vertical-align:middle;
+	position:relative;
+
+
+
+}
+
+.container {
+
+	background-color:#FFFFFF;
+
+
+}
+
+.main {
+	margin:10px;
+}
+
+
+.login {
+	
+	text-align:center;
+	
+}
+.login fieldset {
+	
+	width: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+.login legend {
+	
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+.top h3 {
+	
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #CCC;
+}
+
+#adminhead a {
+	color:#000000;
+	text-decoration:none;
+	
+}
+
+.front {
+
+
+	width:100%;
+	margin: auto;
+}
+
+
+
+.mleft {
+
+	width: 300px;
+	float:left;
+	height:420px;
+	display:table-cell;
+	text-align:center;
+
+
+	
+
+	
+	
+	
+}
+
+.mright {
+
+	
+	margin-left: 300px;;
+	height:420px;
+	display:table-cell;
+
+
+
+
+}
+
+ul.links {
+	list-style:none;
+	line-height:30px;
+}
+
+
+.cover {
+	width:380px;
+	float:right;
+	text-align:center;
+	padding-right:30px;
+}
+ img#cover {
+
+	width:380px;
+	border: 1px solid #888888;
+	box-shadow: 5px 5px 5px #888888;
+	
+}
+#cap {
+	
+	font-size:.9em;
+	
+}
+
+.text {
+	display:block;
+}
+ img#main {
+	
+	border: 1px solid #888888;
+	height:400px;
+	box-shadow: 5px 5px 5px #888888;
+ }
+
+
+
+.issuea {
+	list-style-type:none;
+	
+}
+
+.lastiss {
+	/*float:left; */
+	
+	text-align:center;
+	font-size:.8em;
+	
+	
+	padding:10px;
+	width:600px;
+	
+}
+
+.lastiss img {
+	height:130px;
+	border: 1px solid #888888;
+	box-shadow: 5px 5px 5px #888888;
+	
+	
+	}
+	
+.lastiss ul {
+	
+	background-color:EEEEEE;
+	border: 1px solid #888888;
+	width:80%;
+	margin: 0;
+	padding:0;
+	list-style-type:none;
+	
+	
+	
+}
+.lastiss li {
+	
+	display: inline-block;
+	padding:10px;
+	margin: auto;
+	
+	
+}
+
+.islist {
+
+	
+	margin-left:10px;
+	font-size:.95em;
+	
+}
+
+.islist td tr {
+	text-align:middle;
+	padding:2px;
+	border:1px solid #888;
+}
+
+.islist caption {
+
+	font-weight:bold;
+	
+	text-align:left;
+	margin-left:10px;
+}
+
+.islist li {
+	margin-left:-18px;
+}
+
+div.left
+{
+	display:table-cell;
+	float:left;
+	width:40%;
+	margin:0;
+	padding:1.5em;
+	width:40%;
+
+}
+
+
+.right
+{
+	display:table-cell;
+	background-color:#FFFFFF;
+	margin-left:40%;
+	padding:1.5em;
+
+}
+
+.hide{
+display: none;
+	width: 138px; 
+}
+
+button {
+    border:none; 
+	background:transparent; 
+	cursor: pointer; 
+	text-decoration:underline;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding:0;
+	font-size:1em;
+	font-weight:bold;
+	color: #008000;
+}
+
+button:hover, .openlink button:hover {
+
+color:#33CC33;
+background:#EEEEEE;
+
+}
+
+
+.show{
+
+display:block;
+}
+
+.alpha {
+	margin-left: 40px;
+}
+
+#table {
+	display: table;
+	table-layout: fixed;
+}
+.row {display: table-row;}
+.leftcell {
+	display: table-cell;
+	font-weight:bold;
+	width:100px;
+	text-align:right;
+	white-space:nowrap;
+}
+.rightcell {
+	display: table-cell;
+	padding-left: 10px;
+	padding-right:4px;
+}
+
+.existing {
+
+	display:block;
+	margin-top:5px;
+	width:30%;
+	padding: 5px;
+	border:1px solid green;
+	background-color:#FFFF99;
+	color:green;
+}
+
+td {
+	padding-left:2px;
+	
+}
+.header td {
+	font-weight:bold;
+	padding-right:20px;
+	padding-left:2px;
+	padding-bottom:5px;
+	padding-top:5px;
+
+}
+
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+
+#menu tr:nth-child(odd)		{ background-color:#fff; } 
+#menu tr:nth-child(even)		{ background-color:#fff; }
+
+
+
+
+nav ul {
+	margin:0; 
+	padding:4px;
+	background: #AAA;
+	background: linear-gradient(#AAA,#EEE);
+	background: -webkit-linear-gradient(#AAA,#EEE); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#AAA,#EEE); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#AAA,#EEE); /* For Firefox 3.6 to 15 */	
+	border-top-right-radius: 0.3em;
+	border-top-left-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+
+	
+}
+nav ul li {
+	display:inline; 
+	margin-left:30px;
+	padding-right:10px;
+}
+
+nav ul li  a{
+	
+	color:#333333;
+	/*text-transform: uppercase;*/
+	font-size:.95em;
+	font-weight:bold;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #EEE;
+
+	
+}
+nav ul li a:hover {
+	
+		background-color: transparent;
+		color:#888;
+}
+
+.creators, .types, .subjects {
+	list-style-type:none;
+
+}
+
+.headers h3 {
+	font-style:italic;
+}
+
+.issue_ed {
+
+	margin-top: 10px;
+	font-size:1.2em;
+	font-weight:bold;
+	
+}
+.record {
+	 display:block;
+	 margin-left:20px;
+	 margin-bottom:10px;
+	 margin-top:20px;
+}
+#contents {
+	margin-left:40px;
+
+	line-height:20px;
+	
+	
+}
+
+
+.mheaders {
+	font-weight:bold;
+	margin-left:20px;
+	margin-top: 10px;
+}
+
+.mrecord {
+	 display:block;
+	 margin-left:40px;
+	 margin-bottom:5px;
+	 margin-top:5px;
+}
+
+.mrecord #title {
+
+}
+
+.download {
+	display:inline-block;
+	background-image: url("../images/pdf.png");
+	background-repeat:no-repeat;
+	margin-left:10;
+	padding-left:30px;
+	line-height:24px;
+	text-decoration:underline;
+	
+}
+
+
+.prevnext {
+
+
+	text-align:center;
+}
+.pdf .download {
+	float:right;
+}
+
+
+.atitle {
+	font-weight:bold;
+}
+
+
+div.ed {
+
+
+	
+	margin-bottom:20px;
+}
+.edit, .order {
+
+	font-weight:normal;
+	
+
+}
+
+.edit a {
+	display:block;
+	background-color:#CCCCCC;
+	color:#0000FF;
+	text-decoration:none;
+	padding:2px;
+	border: 1px solid black;
+}
+
+.edit a:hover {
+	display:block;
+	background-color:#000000;
+	color:#CCCCCC;
+	text-decoration:none;
+}
+
+.data {
+	margin-left:10px;
+}
+
+.alert {
+
+	color:#FF0000;
+}
+
+.pdf {
+
+	margin-top: 10px;
+	width: 800px;
+	border-top:10px solid white;
+	
+}
+
+.csslogo {
+	font-family:courier;
+	background-color:#EEE;
+	padding:2px;
+	
+}
