@@ -1,6 +1,6 @@
 #OPERI - Open Periodical Publishing Platform
 
-This software is designed to provide a simple method of publishing Open Access periodicals.  It includes a customizable display, as well as options for rich metadata.
+This software is designed to provide a simple method of publishing Open Access periodicals.  It handles PDF copies of journal articles, and includes a customizable display, as well as options for rich metadata, and searching by title, author, and controlled subjects.
 
 ##Requirements
 
