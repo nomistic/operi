@@ -89,19 +89,19 @@ function undisable() {
 						echo 'http://<input name="resetl" size="80" value="'.  $resetl .'" /><p/>';
 						
 				echo '</fieldset><p/>';
-				echo '<fieldset>';
-					echo '<legend>Require Local Email Domain Access</legend>';
-						echo '<span class="alert">Note: only set this to yes if you are going to restrict all administrative users to have a standard base email, e.g. "@yourdomain.com"</span><br/>';
-						echo '<label for "ldom_ind">Use Local Email Domain?</label> ';
+						echo '<fieldset>';
+						echo '<legend>Require Local Email Domain Access</legend>';
+
+						echo '<label for "ldom_ind">Use Local Email Domain?<span class="alert">*</span></label> ';
 						echo 'Yes:<input type="radio" name="ldom_ind" id="ldom_ind" value="1" onfocus="undisable()"';
-						if ($ldom_ind == 1) {echo ' checked';} 
-						echo '/>'; 
+						if ($ldom_ind == 1) {echo ' checked';}
+						echo '/>';
 						echo 'No:<input type="radio" name="ldom_ind" id="ldom_ind" value="0" onfocus="disable()"';
-						if ($ldom_ind == 0) {echo ' checked';} 
+						if ($ldom_ind == 0) {echo ' checked';}
 						echo ' /><br/><br/>';
 						echo '&nbsp; &nbsp; &nbsp; <label for "ldom">Email Domain: </label>@<input type="text" name="ldom" id="ldom" value="'. $ldom.'" size ="40"';
-						if ($ldom_ind == 0) {echo ' disabled';} 
-						echo '>';
+						if ($ldom_ind == 0) {echo ' disabled';}
+						echo '><br/><br/><span class="alert">*Note: only set this to yes if you are going to restrict all administrative users to have a standard base email, e.g. "@yourdomain.com"  Also please note that if you wish to use this option, it is highly recommended that the server itself be hosted within this domain, or it will likely fail DMARC authentication, and may end up treated as SPAM.</span><br/>';
 
 						?>
 					<p/>
