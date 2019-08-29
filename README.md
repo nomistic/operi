@@ -1,8 +1,8 @@
-#OPERI - Open Periodical Publishing Platform
+# OPERI - Open Periodical Publishing Platform
 
 This software is designed to provide a simple method of publishing Open Access periodicals.  It handles PDF copies of journal articles, and includes a customizable display, as well as options for rich metadata, and searching by title, author, and controlled subject keywords.
 
-##Requirements
+## Requirements
 
 Installation of **OPeri** requires installation of PHP and a MySQL Database.  It has been tested on PHP 5.3, 5.4 and 5.6k and using Apache web servers on Windows and various Linux platforms including Ubuntu, RedHat, and Debian
 
@@ -20,7 +20,7 @@ If you are working in XAMPP, you may also need to set
     
 in your php.ini file in order be able to upload files within the application.
 
-##Installation
+## Installation
 
 Create a mysql database named "ppub" and load the `ppub.sql` file.  You may wish to name it something else, however you will need to change the parameters in config file
 
@@ -29,7 +29,7 @@ Database configuration can be found in `includes/dbconnect.php`
 The software should work on most servers, however, you may need to modify permissions for file uploads (e.g. some servers require you modify any upload directories to be owned by the server itself).
 
 
-###Getting Started
+### Getting Started
 
 Once installed, front-end views of the publication can be viewed at the `/` level of whichever directory you have set the files.  Adminstration can be accessed at `[sitename]/admin`
 
@@ -60,6 +60,6 @@ After a new more secure administrator account has been created, it is recommende
 
 At this point, in the "Site Management" area, you can set up the configuration of the site, including the name, change the header logo, and the graphical look through a custom css tool.
 
-#####More to Come
+##### More to Come
 
 While much of this may be self-explanatory, a more detailed manual should be available soon... 
