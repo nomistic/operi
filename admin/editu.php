@@ -79,6 +79,7 @@ $user_id = $_GET['user_id'];
 <html>
 	<head>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="../css/digpub.css" />
 	</head>
 	<body>
@@ -87,7 +88,8 @@ $user_id = $_GET['user_id'];
 
 	require_once('includes/loggedin.php');
 	include_once('includes/admintop.php');
-?>	
+?>
+<div class="main">
 		<form method="post" action="<?php echo $_SERVER['PHP_SELF'].'?user_id='.$user_id; ?>">
 			<fieldset>
 				<legend>Edit Information for <?php echo $first_name . ' ' . $last_name ?></legend>
@@ -108,8 +110,8 @@ $user_id = $_GET['user_id'];
 			</fieldset>
 			<p/>
 			<input type="submit" value="update" name="submit" />
-		</form>	
-	
+		</form>
+</div>
 	</body>
 </html>
 

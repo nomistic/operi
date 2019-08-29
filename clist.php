@@ -7,29 +7,13 @@
 // License:  Personal                                                           *
 //                                                                              *
 // ******************************************************************************
-
-
 	require_once('includes/connect.php');
 	include_once('includes/pub.php');
- 
- 
+    include_once('includes/docheader.php');
  ?>
- 
-<!DOCTYPE html>
-<html>
-<head>
-<title><?php echo $pubtitle; ?> - Creators</title>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<link rel="stylesheet" type="text/css" href="css/digpub.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
-</head>
-<body>
- <?php
- include_once('includes/docheader.php'); 
- echo '<h3>All Creators</h3>';
- 
- ?>
- 
+
+<div class="main">
+    <h3>All Creators</h3>
  <table bgcolor="#cccccc" border="0" cellpadding="5" cellspacing="0" class="alpha">
 <tbody>
 <tr align="center" bgcolor="#ffffff">
@@ -106,6 +90,6 @@
 	
 ?>
 
-
+</div>
 </body>
 </html>

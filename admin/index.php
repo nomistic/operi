@@ -21,7 +21,8 @@ require_once('includes/loginid.php');
 <head>
 <title><?php echo $pubtitle; ?> Archive Administration</title>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<link rel="stylesheet" type="text/css" href="../css/digpub.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/digpub.css" />
 <link rel="stylesheet" type="text/css" href="../css/custom.css" />
 </head>
 <body>
@@ -36,7 +37,7 @@ require_once('includes/loginid.php');
 		exit();
 	  }
 	  else {
-		echo('<nav><ul> <li>Logged in: <span class="alert">' . $_SESSION['user_name'] . '</span></li><li><a href="logout.php">Log out</a></li></ul></nav>');
+		echo('<nav class="navbar navbar-dark bg-dark"><ul> <li>Logged in: <span class="alert">' . $_SESSION['user_name'] . '</span></li><li><a href="logout.php">Log out</a></li></ul></nav>');
 	  }
 
 

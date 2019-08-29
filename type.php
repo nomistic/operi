@@ -13,20 +13,12 @@
 	require_once('includes/connect.php');
 	include_once('includes/pub.php');
 
- 
- ?>
-<!DOCTYPE html>
-<html>
-<head>
-<title><?php echo $pubtitle; ?> - All Types</title>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<link rel="stylesheet" type="text/css" href="css/digpub.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
-</head>
-<body>
- <?php
- 
- include_once('includes/docheader.php'); 
+
+ include_once('includes/docheader.php');
+
+?>
+<div class="main">
+<?php
  echo '<h3>Choose Article Type</h3>';
 
 
@@ -46,6 +38,6 @@
 	
 ?>
 
-
+</div>
 </body>
 </html>

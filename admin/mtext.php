@@ -47,6 +47,7 @@ session_start();
 <head>
 	<title><?php echo $pubtitle; ?> - Site Management</title>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="../css/digpub.css" />
 <link rel="stylesheet" type="text/css" href="../css/custom.css" />
 
@@ -57,7 +58,7 @@ session_start();
 	include_once('includes/admintop.php'); 
 ?>	
 
-	<div class="container">
+	<div class="main">
 		<div class="mainmenu">	
 			<?php echo $update; ?>
 			<h4>Current Main Page Text:</h4>

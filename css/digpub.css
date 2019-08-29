@@ -139,7 +139,8 @@ ul.links {
  img#main {
 	
 	border: 1px solid #888888;
-	height:400px;
+	height:auto;
+     max-width: 250px;
 	box-shadow: 5px 5px 5px #888888;
  }
 
@@ -322,44 +323,41 @@ tr:nth-child(even)		{ background-color:#fff; }
 #menu tr:nth-child(even)		{ background-color:#fff; }
 
 
-
+nav {
+    margin-bottom: 10px;
+}
 
 nav ul {
-	margin:0; 
+	margin:0;
 	padding:4px;
-	background: #AAA;
-	background: linear-gradient(#AAA,#EEE);
-	background: -webkit-linear-gradient(#AAA,#EEE); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#AAA,#EEE); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#AAA,#EEE); /* For Firefox 3.6 to 15 */	
-	border-top-right-radius: 0.3em;
-	border-top-left-radius: 0.3em;
-	border-bottom-right-radius: 0.3em;
-	border-bottom-left-radius: 0.3em;
+    color: #FFF;
 
-	
+
+
+
 }
 nav ul li {
-	display:inline; 
+	display:inline;
 	margin-left:30px;
 	padding-right:10px;
 }
 
 nav ul li  a{
-	
-	color:#333333;
+
+	color:#EEE;
 	/*text-transform: uppercase;*/
-	font-size:.95em;
+
 	font-weight:bold;
 	text-decoration: none;
-	text-shadow: 2px 2px 2px #EEE;
 
-	
+
+
 }
 nav ul li a:hover {
-	
+
 		background-color: transparent;
 		color:#888;
+		text-decoration: none;
 }
 
 .creators, .types, .subjects {

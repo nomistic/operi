@@ -13,7 +13,7 @@
 		exit();
 	  }
 	  else {
-		echo('<nav><ul><li>Logged in: <span class="alert">' . $_SESSION['user_name'] . '</span></li><li><a href=".">Back to Admin page</a></li> <li><a href="logout.php">Log out</a></li></ul></nav>');
+		echo('<nav class="navbar navbar-dark bg-dark"><ul><li>Logged in: <span class="alert">' . $_SESSION['user_name'] . '</span></li><li><a href=".">Back to Admin page</a></li> <li><a href="logout.php">Log out</a></li></ul></nav>');
 	  }
 
 ?>

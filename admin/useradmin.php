@@ -58,6 +58,7 @@ echo '<div class="alert">Contact updated </div>';
 	<title><?php echo $pubtitle; ?> - User Administration</title>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 </script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/digpub.css" />
 	<link rel="stylesheet" type="text/css" href="../css/custom.css" />
 </head>
@@ -67,7 +68,7 @@ echo '<div class="alert">Contact updated </div>';
 	require_once('includes/loggedin.php');
 	include_once('includes/admintop.php');
  ?>
-	<div class="container">
+	<div class="main">
 		<h3>User Administration</h3>
 		<div class="mainmenu">
 		

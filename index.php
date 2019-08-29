@@ -14,29 +14,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php echo $pubtitle; ?></title>
+	<title><?php echo $pubtitle; ?></title>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<link rel="stylesheet" type="text/css" href="css/digpub.css" />
-<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/digpub.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
 
 
-<script>
-    menu_status = new Array();
+	<script>
+		menu_status = new Array();
 
-    function showHide(theid){
-        if (document.getElementById) {
-        var switch_id = document.getElementById(theid);
+		function showHide(theid){
+			if (document.getElementById) {
+			var switch_id = document.getElementById(theid);
 
-            if(menu_status[theid] != 'show') {
-               switch_id.className = 'show';
-               menu_status[theid] = 'show';
-            }else{
-               switch_id.className = 'hide';
-               menu_status[theid] = 'hide';
-            }
-        }
-    }
-</script>
+				if(menu_status[theid] != 'show') {
+				   switch_id.className = 'show';
+				   menu_status[theid] = 'show';
+				}else{
+				   switch_id.className = 'hide';
+				   menu_status[theid] = 'hide';
+				}
+			}
+		}
+	</script>
 </head>
 <body>
 
@@ -50,7 +51,7 @@ echo '<header>';
 <div class="search">
 	<form method="post" action="search.php">
 		<fieldset>
-		<input type="text" name="keyword" size="50" placeholder="Search the <?php echo $pubtitle; ?>"/>  <input type="submit" name="submit" value="Search" />
+		<input type="text" name="keyword" size="50" placeholder="Search the <?php echo $pubtitle; ?>"/>  <input type="submit" class="btn btn-primary" name="submit" value="Search" />
 		</fieldset>
 	</form>
 </div>
@@ -58,7 +59,7 @@ echo '<header>';
 
 <?php
 echo '</header>';
-echo '<nav><ul><li></li><li><a href="type.php">Content Type</a></li><li><a href="clist.php">Author</a></li><li><a href="slist.php">Subject</a></li></ul></nav>';
+echo '<nav class="navbar navbar-dark bg-dark"><ul><li></li><li><a href="type.php">Content Type</a></li><li><a href="clist.php">Author</a></li><li><a href="slist.php">Subject</a></li></ul></nav>';
 
 ?>
 
