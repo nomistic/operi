@@ -1,0 +1,8 @@
+{
+  "name": "nomistic/operi",
+  "description": "Open Periodical Publishing Platform ",
+  "require": {
+    "php": "^5.6",
+    "another-vendor/package": "1.*"
+  }
+}
